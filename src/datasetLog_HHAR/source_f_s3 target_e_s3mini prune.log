@@ -1,0 +1,43 @@
+Current experiment parameters:
+{'n_channels': 3, 'n_classes': 6, 'batch_size': 32, 'batch_size_eval': 1024, 'window_size': 128, 'window_offset': 8, 'source_epochs': 2, 'target_epochs': 2, 'n_iter': 20000, 'seed': 0, 'log_interval': 100, 'eval_interval': 500, 'gpu': '0', 'mode': 'prune', 'lr_FCs': 0.002, 'lr_FCs_b1': 0.9, 'lr_FCs_b2': 0.999, 'lr_FCt': 0.0002, 'lr_FCt_b1': 0.9, 'lr_FCt_b2': 0.999, 'w_conv1': 0.5, 'w_conv2': 0.05, 'w_conv3': 0.005, 'w_fc1': 0.001, 'w_fc2': 0.0001, 'log': 'default.csv', 'log_train': 'log_train.csv', 'dataset': 'HHAR', 'subject_source': 'f', 'subject_target': 'e', 'position_source': 's3', 'position_target': 's3mini', 'scaling': True}
+Train Epoch: 1 [0/7647 (0%)]	Loss: 2.496398
+Train Epoch: 1 [3200/7647 (42%)]	Loss: 0.295441
+Train Epoch: 1 [6400/7647 (84%)]	Loss: 0.018027
+--------------------------------------------------------------------------------
+SOURCE            : [loss: 0.000066] [acc: 7513/7647 (98.25%)] [f1: 0.9825]
+TARGET w/o tranfer: [loss: 0.004877] [acc: 1124/1899 (59.19%)] [f1: 0.5919]
+--------------------------------------------------------------------------------
+Train Epoch: 2 [0/7647 (0%)]	Loss: 0.108124
+Train Epoch: 2 [3200/7647 (42%)]	Loss: 0.001493
+Train Epoch: 2 [6400/7647 (84%)]	Loss: 0.096748
+--------------------------------------------------------------------------------
+SOURCE            : [loss: 0.000045] [acc: 7532/7647 (98.50%)] [f1: 0.9850]
+TARGET w/o tranfer: [loss: 0.001810] [acc: 1207/1899 (63.56%)] [f1: 0.6356]
+--------------------------------------------------------------------------------
+[Epoch 1/2] [Iter 0/1899]	[Losses conv1: 10.2934 | conv2: 77.4234 | conv3: 81.6630 | final: 2.97788143]
+--------------------------------------------------------------------------------
+TARGET with tranfer: [loss: 0.000866] [acc: 1136/1899 (59.82%)] [f1: 0.5982]
+--------------------------------------------------------------------------------
+[Epoch 2/2] [Iter 0/1899]	[Losses conv1: 9.9550 | conv2: 57.1413 | conv3: 77.9663 | final: 0.83748734]
+--------------------------------------------------------------------------------
+TARGET with tranfer: [loss: 0.000288] [acc: 1754/1899 (92.36%)] [f1: 0.9236]
+--------------------------------------------------------------------------------
+TARGET FULL SET: [loss: 0.009395] [acc: 6981/7617 (91.65%)] [f1: 0.9166]
+Current experiment parameters:
+{'n_channels': 3, 'n_classes': 6, 'batch_size': 32, 'batch_size_eval': 1024, 'window_size': 128, 'window_offset': 8, 'source_epochs': 10, 'target_epochs': 10, 'n_iter': 20000, 'seed': 0, 'log_interval': 100, 'eval_interval': 500, 'gpu': '0', 'mode': 'train', 'lr_FCs': 0.002, 'lr_FCs_b1': 0.9, 'lr_FCs_b2': 0.999, 'lr_FCt': 0.0002, 'lr_FCt_b1': 0.9, 'lr_FCt_b2': 0.999, 'w_conv1': 0.5, 'w_conv2': 0.05, 'w_conv3': 0.005, 'w_fc1': 0.001, 'w_fc2': 0.0001, 'log': 'default.csv', 'log_train': 'log_train.csv', 'dataset': 'HHAR', 'subject_source': 'f', 'subject_target': 'e', 'position_source': 's3', 'position_target': 's3mini', 'scaling': True}
+Train Epoch: 1 [0/7647 (0%)]	Loss: 2.496398
+Train Epoch: 1 [3200/7647 (42%)]	Loss: 0.348576
+Train Epoch: 1 [6400/7647 (84%)]	Loss: 0.026716
+--------------------------------------------------------------------------------
+SOURCE            : [loss: 0.000098] [acc: 7442/7647 (97.32%)] [f1: 0.9732]
+TARGET w/o tranfer: [loss: 0.009130] [acc: 1111/1899 (58.50%)] [f1: 0.5850]
+--------------------------------------------------------------------------------
+Train Epoch: 2 [0/7647 (0%)]	Loss: 0.048884
+Train Epoch: 2 [3200/7647 (42%)]	Loss: 0.001861
+Train Epoch: 2 [6400/7647 (84%)]	Loss: 0.060735
+--------------------------------------------------------------------------------
+SOURCE            : [loss: 0.000063] [acc: 7496/7647 (98.03%)] [f1: 0.9803]
+TARGET w/o tranfer: [loss: 0.001987] [acc: 1400/1899 (73.72%)] [f1: 0.7372]
+--------------------------------------------------------------------------------
+Train Epoch: 3 [0/7647 (0%)]	Loss: 0.372823
+Train Epoch: 3 [3200/7647 (42%)]	Loss: 0.115945
